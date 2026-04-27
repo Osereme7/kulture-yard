@@ -1,14 +1,14 @@
 # Kulture Yard
 
-The official website for **Kulture Yard** — a gospel-themed African restaurant and lounge in Ikeja, Lagos.
+The official website for **Kulture Yard** — a Christian-rooted African restaurant and lounge in Ikeja, Lagos.
 
-> *"Eat. Pray. Love. The Yard."*
+> *"Eat. Vibe. Love. The Yard."*
 
 Live: https://osereme7.github.io/kulture-yard/
 
 ## About
 
-Kulture Yard is a first-of-its-kind Christian lounge owned by reggae gospel artist Buchi Atuonwu, blending African cuisine with gospel music and a family-friendly outdoor "yard" atmosphere.
+Kulture Yard is a first-of-its-kind Christian-rooted lounge owned by reggae artist Buchi Atuonwu, blending African cuisine with live music and a family-friendly outdoor "yard" atmosphere.
 
 - **Address:** 2B Abba Johnston Crescent, Boet Estate, Adeniyi Jones, Ikeja, Lagos
 - **Phone:** +234 901 909 0099
