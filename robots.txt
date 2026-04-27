@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://osereme7.github.io/kulture-yard/sitemap.xml
