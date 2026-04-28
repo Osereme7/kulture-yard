@@ -1,4 +1,4 @@
-// Kulture Yard — menu.js
+// Kulture Yard - menu.js
 // Category tab filter + free-text search across menu items.
 
 (function () {

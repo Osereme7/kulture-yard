@@ -1,4 +1,4 @@
-// Kulture Yard — main.js
+// Kulture Yard - main.js
 // Sticky nav scroll state, mobile menu toggle, scroll reveal.
 
 (function () {

@@ -1,6 +1,6 @@
 # Kulture Yard
 
-The official website for **Kulture Yard** — a Christian-rooted African restaurant and lounge in Ikeja, Lagos.
+The official website for **Kulture Yard** - a Christian-rooted African restaurant and lounge in Ikeja, Lagos.
 
 > *"Eat. Vibe. Love. The Yard."*
 
@@ -17,7 +17,7 @@ Kulture Yard is a first-of-its-kind Christian-rooted lounge owned by reggae arti
 
 ## Stack
 
-Plain static HTML / CSS / JS — no build step. Deployed via GitHub Pages.
+Plain static HTML / CSS / JS - no build step. Deployed via GitHub Pages.
 
 ## Local preview
 
