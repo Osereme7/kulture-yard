@@ -216,19 +216,28 @@ h2.section-title {
   position: relative;
   overflow: hidden;
   background:
-    radial-gradient(ellipse at top, rgba(230, 57, 70, 0.18), transparent 60%),
-    radial-gradient(ellipse at bottom right, rgba(27, 127, 58, 0.18), transparent 60%),
-    radial-gradient(ellipse at bottom left, rgba(255, 215, 0, 0.10), transparent 60%),
+    /* dark fade overlay: top dim → middle reveal → bottom fade-to-black */
+    linear-gradient(180deg,
+      rgba(10, 10, 10, 0.88) 0%,
+      rgba(10, 10, 10, 0.55) 22%,
+      rgba(10, 10, 10, 0.50) 55%,
+      rgba(10, 10, 10, 0.85) 88%,
+      rgba(10, 10, 10, 1) 100%),
+    /* subtle Pan-African color tints */
+    radial-gradient(ellipse at top, rgba(230, 57, 70, 0.10), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(27, 127, 58, 0.10), transparent 60%),
+    /* venue photograph */
+    url('../images/hero-bg.jpg') center / cover no-repeat,
     var(--bg);
 }
 .hero::before {
   content: '';
   position: absolute;
   inset: 0;
-  background-image: radial-gradient(rgba(255,255,255,0.04) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(255,255,255,0.03) 1px, transparent 1px);
   background-size: 32px 32px;
   pointer-events: none;
-  opacity: 0.6;
+  opacity: 0.4;
 }
 .hero-content {
   position: relative;
@@ -255,12 +264,14 @@ h2.section-title {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.1;
+  filter: drop-shadow(0 4px 24px rgba(0, 0, 0, 0.7));
 }
 .hero-subline {
   font-size: clamp(16px, 2vw, 19px);
   color: var(--cream-dim);
   max-width: 640px;
   margin: 0 auto 36px;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.8);
 }
 .hero-ctas {
   display: flex;
